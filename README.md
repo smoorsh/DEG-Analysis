@@ -26,7 +26,11 @@ Install the DESeq2 and any other necessary libraries if they are not already ins
 ```
 BiocManager::install("library")
 ```
-
+## Clone the repository
+Run the following command line to clone DEG-Analysis
+```
+git clone https://github.com/smoorsh/DEG-Analysis.git
+```
 ## Run the Program
 Replace each argument with the title of your input or desired output file, and replace the plot-header with the header for your volcano plot.
 ```
