@@ -34,5 +34,5 @@ git clone https://github.com/smoorsh/DEG-Analysis.git
 ## Run the Program
 Replace each argument with the title of your input or desired output file, and replace the plot-header with the header for your volcano plot.
 ```
-Rscript ./DEG-analysis/DEG_analysis.R countfile-name.csv annotationfile-name.csv DEGoutfile-name.csv plot-header plot-filename.png
+Rscript ./DEG-Analysis/deg_maker.R countfile-name.csv annotationfile-name.csv DEGoutfile-name.csv plot-header plot-filename.png
 ```
